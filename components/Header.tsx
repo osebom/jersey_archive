@@ -13,13 +13,13 @@ export default function Header() {
   };
 
   const linkClass = (active: boolean) =>
-    `text-[10px] uppercase tracking-[0.15em] transition-colors sm:text-xs ${
+    `text-[10px] uppercase tracking-[0.15em] [word-spacing:-0.25em] transition-colors sm:text-xs ${
       active ? "text-black" : "text-[#b3b3b3] hover:text-black"
     }`;
 
   return (
     <header className="sticky top-0 z-40 bg-white">
-      <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-4 gap-y-1 px-4 py-5 sm:px-6">
+      <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-1 px-4 py-5 sm:gap-x-10 sm:px-6">
         <Link href="/" className={linkClass(isActive("home"))}>
           HOME
         </Link>

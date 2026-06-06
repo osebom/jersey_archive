@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-white">
-      <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-1 px-4 py-5 sm:gap-x-10 sm:px-6">
+      <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-4 gap-y-1 px-4 py-5 text-center sm:gap-x-10 sm:px-6">
         <Link href="/" className={linkClass(isActive("home"))}>
           HOME
         </Link>

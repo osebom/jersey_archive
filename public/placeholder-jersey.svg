@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
+  <path
+    d="M60 30 L100 10 L140 30 L160 50 L150 70 L145 220 L55 220 L50 70 L40 50 Z"
+    fill="#e8e8e8"
+    stroke="#cccccc"
+    stroke-width="1.5"
+  />
+  <path
+    d="M100 10 L100 70"
+    stroke="#cccccc"
+    stroke-width="1.5"
+  />
+  <path
+    d="M60 30 L100 70 L140 30"
+    stroke="#cccccc"
+    stroke-width="1.5"
+    fill="none"
+  />
+</svg>

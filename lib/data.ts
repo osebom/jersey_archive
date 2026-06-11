@@ -248,6 +248,24 @@ export const jerseys: Jersey[] = [
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ajax-third-shirt-pre-orderjz4692.html?ref=ojaykits",
   },
+  {
+    id: "cfs-belgium-originals-pre-match-2627",
+    code: "BE-27",
+    name: "BELGIUM 26/27 ORIGINALS PRE-MATCH",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/belgium-originals-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-belgium-adidas-originals-pre-match-shirtjy7642.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-argentina-originals-pre-match-2627",
+    code: "AR-28",
+    name: "ARGENTINA 26/27 ORIGINALS PRE-MATCH",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/argentina-originals-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-argentina-adidas-originals-pre-match-shirtjy9535.html?ref=ojaykits",
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

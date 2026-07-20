@@ -266,6 +266,366 @@ export const jerseys: Jersey[] = [
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-argentina-adidas-originals-pre-match-shirtjy9535.html?ref=ojaykits",
   },
+  {
+    id: "cfs-spain-pre-match-2627",
+    code: "ES-26",
+    name: "SPAIN 26/27 PRE-MATCH",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/spain-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-spain-adidas-pre-match-shirtka1906.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-france-home-2627",
+    code: "FR-26",
+    name: "FRANCE 26/27 HOME",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/france-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-france-home-shirtib5300-480.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-spain-originals-eqt-tee-2627",
+    code: "ES-27",
+    name: "SPAIN 26/27 ORIGINALS EQT TEE",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/spain-originals-eqt-tee-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-spain-adidas-originals-equipment-teekg2574.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-england-away-2627",
+    code: "EN-26",
+    name: "ENGLAND 26/27 AWAY",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/england-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-england-away-shirtib5361-624.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-mexico-home-2627",
+    code: "MX-26",
+    name: "MEXICO 26/27 HOME",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/mexico-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-mexico-home-shirtjl8580.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-england-gk-2627",
+    code: "EN-27",
+    name: "ENGLAND 26/27 GK",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/england-gk-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-england-gk-shirtib5295-489.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-cape-verde-home-2627",
+    code: "CV-26",
+    name: "CAPE VERDE 26/27 HOME",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/cape-verde-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-cape-verde-home-shirtaga-14277r.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-lens-away-2627",
+    code: "LN-26",
+    name: "LENS 26/27 AWAY",
+    categorySlug: "2026-27",
+    image: "/jerseys/lens-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-lens-away-shirtkf2641.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-germany-away-2627",
+    code: "DE-26",
+    name: "GERMANY 26/27 AWAY",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/germany-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-germany-away-shirtjn2074.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-porto-away-2627",
+    code: "PT-26",
+    name: "PORTO 26/27 AWAY",
+    categorySlug: "2026-27",
+    image: "/jerseys/porto-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-porto-away-shirtmt6286xy.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-czech-republic-away-2627",
+    code: "CZ-26",
+    name: "CZECH REPUBLIC 26/27 AWAY",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/czech-republic-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-czech-republic-away-shirt783257-06.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-mexico-away-2627",
+    code: "MX-27",
+    name: "MEXICO 26/27 AWAY",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/mexico-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-mexico-away-shirtjz0736.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-usa-away-2627",
+    code: "US-26",
+    name: "USA 26/27 AWAY",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/usa-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-usa-away-shirtib5395-475.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-bayern-munich-away-kids-2627",
+    code: "BM-27",
+    name: "BAYERN MUNICH 26/27 AWAY KIDS",
+    categorySlug: "2026-27",
+    image: "/jerseys/bayern-munich-away-kids-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-bayern-munich-away-shirt-kidsjz3097.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-real-betis-home-2627",
+    code: "RB-26",
+    name: "REAL BETIS 26/27 HOME",
+    categorySlug: "2026-27",
+    image: "/jerseys/real-betis-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-real-betis-home-shirt237758-6143.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-brazil-authentic-away-2627",
+    code: "BR-26",
+    name: "BRAZIL 26/27 AUTHENTIC AWAY",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/brazil-authentic-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-brazil-authentic-away-shirtiu1074-417.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-switzerland-pre-match-2627",
+    code: "CH-26",
+    name: "SWITZERLAND 26/27 PRE-MATCH",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/switzerland-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-switzerland-puma-pre-match-shirt784187-06.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-portugal-gk-2627",
+    code: "PT-27",
+    name: "PORTUGAL 26/27 GK",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/portugal-gk-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-portugal-gk-shirt787101-81.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-rb-salzburg-away-2627",
+    code: "SB-26",
+    name: "RB SALZBURG 26/27 AWAY",
+    categorySlug: "2026-27",
+    image: "/jerseys/rb-salzburg-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-rb-salzburg-away-shirt784374-02.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-belgium-authentic-home-2627",
+    code: "BE-28",
+    name: "BELGIUM 26/27 AUTHENTIC HOME",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/belgium-authentic-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-belgium-authentic-home-shirtjm8378.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-lyon-home-2627",
+    code: "LY-26",
+    name: "LYON 26/27 HOME",
+    categorySlug: "2026-27",
+    image: "/jerseys/lyon-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-lyon-home-shirtkx0705.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-colombia-authentic-away-2627",
+    code: "CO-27",
+    name: "COLOMBIA 26/27 AUTHENTIC AWAY",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/colombia-authentic-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-colombia-authentic-away-shirtjl6973.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-tunisia-home-2627",
+    code: "TN-27",
+    name: "TUNISIA 26/27 HOME",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/tunisia-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-tunisia-home-shirt34255vw-tnf-a01.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-fc-koln-home-2627",
+    code: "FK-26",
+    name: "FC KOLN 26/27 HOME",
+    categorySlug: "2026-27",
+    image: "/jerseys/fc-koln-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-fc-koln-home-shirtku2880.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-germany-originals-pre-match-2627",
+    code: "DE-27",
+    name: "GERMANY 26/27 ORIGINALS PRE-MATCH",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/germany-originals-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-germany-adidas-originals-pre-match-shirtjz4578.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-liverpool-stadium-2627",
+    code: "LV-27",
+    name: "LIVERPOOL 26/27 STADIUM",
+    categorySlug: "2026-27",
+    image: "/jerseys/liverpool-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-liverpool-adidas-stadium-shirtkg2890.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-portugal-pre-match-2627",
+    code: "PT-28",
+    name: "PORTUGAL 26/27 PRE-MATCH",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/portugal-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-portugal-puma-pre-match-shirt784788-38.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-real-madrid-stadium-2627",
+    code: "RM-26",
+    name: "REAL MADRID 26/27 STADIUM",
+    categorySlug: "2026-27",
+    image: "/jerseys/real-madrid-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-real-madrid-adidas-stadium-shirtkg2960.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-atalanta-home-2627",
+    code: "AT-26",
+    name: "ATALANTA 26/27 HOME",
+    categorySlug: "2026-27",
+    image: "/jerseys/atalanta-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-atalanta-home-shirtmt62d4jz.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-austria-gk-2627",
+    code: "AU-26",
+    name: "AUSTRIA 26/27 GK",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/austria-gk-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-austria-gk-shirt785547-83.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-manchester-city-gk-2627",
+    code: "MC-27",
+    name: "MANCHESTER CITY 26/27 GK",
+    categorySlug: "2026-27",
+    image: "/jerseys/manchester-city-gk-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-manchester-city-gk-shirt785650-70.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-manchester-united-stadium-2627",
+    code: "MU-27",
+    name: "MANCHESTER UNITED 26/27 STADIUM",
+    categorySlug: "2026-27",
+    image: "/jerseys/manchester-united-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-manchester-united-adidas-stadium-shirtkh4804.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-ivory-coast-pre-match-2627",
+    code: "CI-27",
+    name: "IVORY COAST 26/27 PRE-MATCH",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/ivory-coast-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-ivory-coast-puma-pre-match-shirt784738-10.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-juventus-stadium-2627",
+    code: "JV-27",
+    name: "JUVENTUS 26/27 STADIUM",
+    categorySlug: "2026-27",
+    image: "/jerseys/juventus-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-juventus-adidas-stadium-shirtkf9811.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-borussia-dortmund-gk-2627",
+    code: "BD-27",
+    name: "BORUSSIA DORTMUND 26/27 GK",
+    categorySlug: "2026-27",
+    image: "/jerseys/borussia-dortmund-gk-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-borussia-dortmund-gk-shirt786174-77.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-olympique-marseille-away-2627",
+    code: "OM-26",
+    name: "OLYMPIQUE MARSEILLE 26/27 AWAY",
+    categorySlug: "2026-27",
+    image: "/jerseys/olympique-marseille-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-olympique-marseille-away-shirt784263-02.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-arsenal-stadium-2627",
+    code: "AS-26",
+    name: "ARSENAL 26/27 STADIUM",
+    categorySlug: "2026-27",
+    image: "/jerseys/arsenal-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-arsenal-adidas-stadium-shirtkg5105.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-bayern-munich-stadium-2627",
+    code: "BM-28",
+    name: "BAYERN MUNICH 26/27 STADIUM",
+    categorySlug: "2026-27",
+    image: "/jerseys/bayern-munich-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-bayern-munich-adidas-stadium-shirtkg2243.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-real-madrid-home-2627",
+    code: "RM-27",
+    name: "REAL MADRID 26/27 HOME",
+    categorySlug: "2026-27",
+    image: "/jerseys/real-madrid-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-real-madrid-home-shirtjz7206.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-eintracht-frankfurt-home-2627",
+    code: "EF-26",
+    name: "EINTRACHT FRANKFURT 26/27 HOME",
+    categorySlug: "2026-27",
+    image: "/jerseys/eintracht-frankfurt-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-eintracht-frankfurt-home-shirtkb1996.html?ref=ojaykits",
+  },
 ];
 
 export function getCategoryBySlug(slug: string): Category | undefined {

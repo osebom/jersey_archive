@@ -42,28 +42,16 @@ export const categories: Category[] = [
 
 export const jerseys: Jersey[] = [
   {
-    id: "cfs-ac-milan-away-2627",
-    code: "AC-27",
-    name: "AC MILAN 26/27 AWAY",
+    id: "cfs-juventus-away-2627",
+    code: "JV-28",
+    name: "JUVENTUS 26/27 AWAY",
     type: "AWAY",
-    brand: "PUMA",
-    team: "AC MILAN",
+    brand: "ADIDAS",
+    team: "JUVENTUS",
     categorySlug: "2026-27",
-    image: "/jerseys/ac-milan-away-2627.jpg",
+    image: "/jerseys/juventus-away-2627.jpg",
     externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-ac-milan-away-shirt784130-02.html?ref=ojaykits",
-  },
-  {
-    id: "cfs-inter-milan-authentic-away-2627",
-    code: "IM-26",
-    name: "INTER MILAN 26/27 AUTHENTIC AWAY",
-    type: "AUTHENTIC AWAY",
-    brand: "NIKE",
-    team: "INTER MILAN",
-    categorySlug: "2026-27",
-    image: "/jerseys/inter-milan-authentic-away-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-inter-milan-authentic-away-shirtii1792-101.html?ref=ojaykits",
+      "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
   },
   {
     id: "cfs-manchester-united-away-2627",
@@ -78,18 +66,29 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-manchester-united-away-shirtka6861.html?ref=ojaykits",
   },
   {
-    id: "cfs-juventus-away-2627",
-    code: "JV-28",
-    name: "JUVENTUS 26/27 AWAY",
-    type: "AWAY",
-    brand: "ADIDAS",
-    team: "JUVENTUS",
+    id: "cfs-inter-milan-authentic-away-2627",
+    code: "IM-26",
+    name: "INTER MILAN 26/27 AUTHENTIC AWAY",
+    type: "AUTHENTIC AWAY",
+    brand: "NIKE",
+    team: "INTER MILAN",
     categorySlug: "2026-27",
-    image: "/jerseys/juventus-away-2627.jpg",
+    image: "/jerseys/inter-milan-authentic-away-2627.jpg",
     externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
+      "https://www.classicfootballshirts.com/2026-27-inter-milan-authentic-away-shirtii1792-101.html?ref=ojaykits",
   },
-  // World Cup 2026
+  {
+    id: "cfs-ac-milan-away-2627",
+    code: "AC-27",
+    name: "AC MILAN 26/27 AWAY",
+    type: "AWAY",
+    brand: "PUMA",
+    team: "AC MILAN",
+    categorySlug: "2026-27",
+    image: "/jerseys/ac-milan-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-ac-milan-away-shirt784130-02.html?ref=ojaykits",
+  },
   {
     id: "wc-esp",
     code: "ES-01",
@@ -101,6 +100,18 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/spain-away-2627.png",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-spain-away-shirt-jn4397.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-argentina-authentic-away-2627",
+    code: "AR-27",
+    name: "ARGENTINA 26/27 AUTHENTIC AWAY",
+    type: "AUTHENTIC AWAY",
+    brand: "ADIDAS",
+    team: "ARGENTINA",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/argentina-authentic-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-argentina-authentic-away-shirt-jm5901.html?ref=ojaykits",
   },
   {
     id: "wc-rsa",
@@ -115,6 +126,54 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-south-africa-away-shirtky2217.html?ref=ojaykits",
   },
   {
+    id: "cfs-real-madrid-home-2627",
+    code: "RM-27",
+    name: "REAL MADRID 26/27 HOME",
+    type: "HOME",
+    brand: "ADIDAS",
+    team: "REAL MADRID",
+    categorySlug: "2026-27",
+    image: "/jerseys/real-madrid-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-real-madrid-home-shirtjz7206.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-manchester-united-stadium-2627",
+    code: "MU-27",
+    name: "MANCHESTER UNITED 26/27 STADIUM",
+    type: "STADIUM",
+    brand: "ADIDAS",
+    team: "MANCHESTER UNITED",
+    categorySlug: "2026-27",
+    image: "/jerseys/manchester-united-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-manchester-united-adidas-stadium-shirtkh4804.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-juventus-stadium-2627",
+    code: "JV-27",
+    name: "JUVENTUS 26/27 STADIUM",
+    type: "STADIUM",
+    brand: "ADIDAS",
+    team: "JUVENTUS",
+    categorySlug: "2026-27",
+    image: "/jerseys/juventus-stadium-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-juventus-adidas-stadium-shirtkf9811.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-borussia-dortmund-gk-2627",
+    code: "BD-27",
+    name: "BORUSSIA DORTMUND 26/27 GK",
+    type: "GK",
+    brand: "PUMA",
+    team: "BORUSSIA DORTMUND",
+    categorySlug: "2026-27",
+    image: "/jerseys/borussia-dortmund-gk-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-borussia-dortmund-gk-shirt786174-77.html?ref=ojaykits",
+  },
+  {
     id: "wc-ger",
     code: "DE-01",
     name: "GERMANY 26/27 HOME",
@@ -126,8 +185,6 @@ export const jerseys: Jersey[] = [
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-germany-home-shirtkd8363.html?ref=ojaykits",
   },
-
-  // Imported from classicfootballshirts.com (uncategorized for now)
   {
     id: "cfs-juventus-home-2627",
     code: "JV-26",
@@ -235,18 +292,6 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/argentina-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-argentina-home-shirtjm8396.html?ref=ojaykits",
-  },
-  {
-    id: "cfs-argentina-authentic-away-2627",
-    code: "AR-27",
-    name: "ARGENTINA 26/27 AUTHENTIC AWAY",
-    type: "AUTHENTIC AWAY",
-    brand: "ADIDAS",
-    team: "ARGENTINA",
-    categorySlug: "world-cup-2026",
-    image: "/jerseys/argentina-authentic-away-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-argentina-authentic-away-shirt-jm5901.html?ref=ojaykits",
   },
   {
     id: "cfs-manchester-united-home-2627",
@@ -765,18 +810,6 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-manchester-city-gk-shirt785650-70.html?ref=ojaykits",
   },
   {
-    id: "cfs-manchester-united-stadium-2627",
-    code: "MU-27",
-    name: "MANCHESTER UNITED 26/27 STADIUM",
-    type: "STADIUM",
-    brand: "ADIDAS",
-    team: "MANCHESTER UNITED",
-    categorySlug: "2026-27",
-    image: "/jerseys/manchester-united-stadium-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-manchester-united-adidas-stadium-shirtkh4804.html?ref=ojaykits",
-  },
-  {
     id: "cfs-ivory-coast-pre-match-2627",
     code: "CI-27",
     name: "IVORY COAST 26/27 PRE-MATCH",
@@ -787,30 +820,6 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/ivory-coast-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ivory-coast-puma-pre-match-shirt784738-10.html?ref=ojaykits",
-  },
-  {
-    id: "cfs-juventus-stadium-2627",
-    code: "JV-27",
-    name: "JUVENTUS 26/27 STADIUM",
-    type: "STADIUM",
-    brand: "ADIDAS",
-    team: "JUVENTUS",
-    categorySlug: "2026-27",
-    image: "/jerseys/juventus-stadium-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-juventus-adidas-stadium-shirtkf9811.html?ref=ojaykits",
-  },
-  {
-    id: "cfs-borussia-dortmund-gk-2627",
-    code: "BD-27",
-    name: "BORUSSIA DORTMUND 26/27 GK",
-    type: "GK",
-    brand: "PUMA",
-    team: "BORUSSIA DORTMUND",
-    categorySlug: "2026-27",
-    image: "/jerseys/borussia-dortmund-gk-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-borussia-dortmund-gk-shirt786174-77.html?ref=ojaykits",
   },
   {
     id: "cfs-olympique-marseille-away-2627",
@@ -847,18 +856,6 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/bayern-munich-stadium-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-bayern-munich-adidas-stadium-shirtkg2243.html?ref=ojaykits",
-  },
-  {
-    id: "cfs-real-madrid-home-2627",
-    code: "RM-27",
-    name: "REAL MADRID 26/27 HOME",
-    type: "HOME",
-    brand: "ADIDAS",
-    team: "REAL MADRID",
-    categorySlug: "2026-27",
-    image: "/jerseys/real-madrid-home-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-real-madrid-home-shirtjz7206.html?ref=ojaykits",
   },
   {
     id: "cfs-eintracht-frankfurt-home-2627",

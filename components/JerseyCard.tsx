@@ -3,13 +3,20 @@ import type { Jersey } from "@/lib/data";
 
 type JerseyCardProps = {
   jersey: Jersey;
-  showName?: boolean;
+  showName?: boolean | "desktop";
 };
 
 export default function JerseyCard({
   jersey,
   showName = true,
 }: JerseyCardProps) {
+  const nameVisibility =
+    showName === "desktop"
+      ? "mt-3 hidden text-center text-[10px] uppercase tracking-[0.12em] lg:block"
+      : showName
+        ? "mt-3 text-center text-[10px] uppercase tracking-[0.12em]"
+        : "";
+
   return (
     <a
       href={jersey.externalUrl}
@@ -23,13 +30,11 @@ export default function JerseyCard({
           alt={jersey.name}
           fill
           className="object-contain"
-          sizes="(max-width: 640px) 30vw, (max-width: 1024px) 20vw, 12vw"
+          sizes="(max-width: 640px) 30vw, (max-width: 1024px) 22vw, 18vw"
         />
       </div>
       {showName && (
-        <span className="mt-3 text-center text-[10px] uppercase tracking-[0.12em] sm:text-xs">
-          {jersey.name}
-        </span>
+        <span className={nameVisibility}>{jersey.name}</span>
       )}
     </a>
   );

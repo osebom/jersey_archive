@@ -42,6 +42,42 @@ export const categories: Category[] = [
 
 export const jerseys: Jersey[] = [
   {
+    id: "cfs-ac-milan-away-2627",
+    code: "AC-27",
+    name: "AC MILAN 26/27 AWAY",
+    type: "AWAY",
+    brand: "PUMA",
+    team: "AC MILAN",
+    categorySlug: "2026-27",
+    image: "/jerseys/ac-milan-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-ac-milan-away-shirt784130-02.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-inter-milan-authentic-away-2627",
+    code: "IM-26",
+    name: "INTER MILAN 26/27 AUTHENTIC AWAY",
+    type: "AUTHENTIC AWAY",
+    brand: "NIKE",
+    team: "INTER MILAN",
+    categorySlug: "2026-27",
+    image: "/jerseys/inter-milan-authentic-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-inter-milan-authentic-away-shirtii1792-101.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-manchester-united-away-2627",
+    code: "MU-28",
+    name: "MANCHESTER UNITED 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "MANCHESTER UNITED",
+    categorySlug: "2026-27",
+    image: "/jerseys/manchester-united-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-manchester-united-away-shirtka6861.html?ref=ojaykits",
+  },
+  {
     id: "cfs-juventus-away-2627",
     code: "JV-28",
     name: "JUVENTUS 26/27 AWAY",

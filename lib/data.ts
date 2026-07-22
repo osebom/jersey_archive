@@ -41,6 +41,18 @@ export const categories: Category[] = [
 ];
 
 export const jerseys: Jersey[] = [
+  {
+    id: "cfs-juventus-away-2627",
+    code: "JV-28",
+    name: "JUVENTUS 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "JUVENTUS",
+    categorySlug: "2026-27",
+    image: "/jerseys/juventus-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
+  },
   // World Cup 2026
   {
     id: "wc-esp",

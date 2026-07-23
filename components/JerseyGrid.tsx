@@ -6,7 +6,7 @@ type JerseyGridProps = {
   jerseys: Jersey[];
   leading?: ReactNode;
   showNames?: boolean | "desktop";
-  size?: "default" | "large";
+  size?: "default" | "large" | "home";
 };
 
 export default function JerseyGrid({
@@ -18,7 +18,9 @@ export default function JerseyGrid({
   const gridClass =
     size === "large"
       ? "grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-3 sm:gap-x-8 sm:gap-y-12 md:grid-cols-4 lg:grid-cols-4 lg:gap-x-10 lg:gap-y-14 xl:grid-cols-5"
-      : "grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-4 sm:gap-x-10 sm:gap-y-14 md:grid-cols-6 lg:grid-cols-8 lg:gap-x-12 lg:gap-y-16";
+      : size === "home"
+        ? "grid grid-cols-3 gap-x-4 gap-y-2 sm:grid-cols-4 sm:gap-x-8 sm:gap-y-3 md:grid-cols-6 lg:grid-cols-8 lg:gap-x-10 lg:gap-y-4"
+        : "grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-4 sm:gap-x-10 sm:gap-y-14 md:grid-cols-6 lg:grid-cols-8 lg:gap-x-12 lg:gap-y-16";
 
   return (
     <div className={gridClass}>

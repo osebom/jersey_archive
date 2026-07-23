@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import type { Jersey } from "@/lib/data";
 import JerseyGrid from "@/components/JerseyGrid";
 import {
@@ -44,6 +44,8 @@ function FilterDropdown({
   onToggleValue: (value: string) => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const [alignRight, setAlignRight] = useState(false);
 
   useEffect(() => {
     if (!open) return;
@@ -57,6 +59,21 @@ function FilterDropdown({
     document.addEventListener("mousedown", handlePointerDown);
     return () => document.removeEventListener("mousedown", handlePointerDown);
   }, [open, onClose]);
+
+  useLayoutEffect(() => {
+    if (!open || !ref.current || !panelRef.current) {
+      setAlignRight(false);
+      return;
+    }
+
+    const triggerLeft = ref.current.getBoundingClientRect().left;
+    const panelWidth = panelRef.current.offsetWidth;
+    const viewportPadding = 16;
+    const wouldOverflow =
+      triggerLeft + panelWidth > window.innerWidth - viewportPadding;
+
+    setAlignRight(wouldOverflow);
+  }, [open, options]);
 
   return (
     <div ref={ref} className={`relative ${open ? "z-50" : "z-0"}`}>
@@ -88,9 +105,14 @@ function FilterDropdown({
       </button>
 
       {open && (
-        <div className="absolute left-0 top-full z-50 mt-2 max-h-64 w-56 overflow-y-auto border border-black bg-white py-2 shadow-sm">
+        <div
+          ref={panelRef}
+          className={`absolute top-full z-50 mt-2 max-h-64 w-max max-w-[calc(100vw-2rem)] overflow-y-auto border border-black bg-white py-2 shadow-sm ${
+            alignRight ? "right-0 left-auto" : "left-0 right-auto"
+          }`}
+        >
           {options.length === 0 ? (
-            <p className="px-3 py-1 text-[10px] uppercase tracking-[0.12em] text-[#b3b3b3]">
+            <p className="whitespace-nowrap px-4 py-1 text-[10px] uppercase tracking-[0.12em] text-[#b3b3b3]">
               NO OPTIONS
             </p>
           ) : (
@@ -99,13 +121,13 @@ function FilterDropdown({
               return (
                 <label
                   key={`${filterKey}-${option}`}
-                  className="flex cursor-pointer items-center gap-2 bg-white px-3 py-1.5 text-[10px] uppercase tracking-[0.12em] hover:bg-[#f5f5f5] sm:text-xs"
+                  className="flex cursor-pointer items-center gap-2 whitespace-nowrap bg-white px-4 py-1.5 text-[10px] uppercase tracking-[0.12em] hover:bg-[#f5f5f5] sm:text-xs"
                 >
                   <input
                     type="checkbox"
                     checked={checked}
                     onChange={() => onToggleValue(option)}
-                    className="h-3.5 w-3.5 accent-black"
+                    className="h-3.5 w-3.5 shrink-0 accent-black"
                   />
                   <span>{option}</span>
                 </label>

@@ -8,6 +8,7 @@ export type Jersey = {
   type: string;
   brand: string;
   team: string;
+  league: string;
 };
 
 export type Category = {
@@ -48,10 +49,63 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "JUVENTUS",
+    league: "SERIE A",
     categorySlug: "2026-27",
     image: "/jerseys/juventus-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-real-madrid-away-2627",
+    code: "RM-28",
+    name: "REAL MADRID 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "REAL MADRID",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/real-madrid-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-real-madrid-away-shirtjz7205.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-ajax-away-2627",
+    code: "AX-27",
+    name: "AJAX 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "AJAX",
+    league: "EREDIVISIE",
+    categorySlug: "2026-27",
+    image: "/jerseys/ajax-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-ajax-away-shirtjz4693.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-eintracht-frankfurt-away-2627",
+    code: "EF-27",
+    name: "EINTRACHT FRANKFURT 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "EINTRACHT FRANKFURT",
+    league: "BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/eintracht-frankfurt-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-eintracht-frankfurt-away-shirtkb1998.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-atletico-madrid-home-2627",
+    code: "AM-26",
+    name: "ATLETICO MADRID 26/27 HOME",
+    type: "HOME",
+    brand: "NIKE",
+    team: "ATLETICO MADRID",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/atletico-madrid-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-atletico-madrid-home-shirtii1893-101.html?ref=ojaykits",
   },
   {
     id: "cfs-manchester-united-away-2627",
@@ -60,6 +114,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "MANCHESTER UNITED",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/manchester-united-away-2627.jpg",
     externalUrl:
@@ -72,6 +127,7 @@ export const jerseys: Jersey[] = [
     type: "AUTHENTIC AWAY",
     brand: "NIKE",
     team: "INTER MILAN",
+    league: "SERIE A",
     categorySlug: "2026-27",
     image: "/jerseys/inter-milan-authentic-away-2627.jpg",
     externalUrl:
@@ -84,6 +140,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "PUMA",
     team: "AC MILAN",
+    league: "SERIE A",
     categorySlug: "2026-27",
     image: "/jerseys/ac-milan-away-2627.jpg",
     externalUrl:
@@ -96,6 +153,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "SPAIN",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/spain-away-2627.png",
     externalUrl:
@@ -108,6 +166,7 @@ export const jerseys: Jersey[] = [
     type: "AUTHENTIC AWAY",
     brand: "ADIDAS",
     team: "ARGENTINA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/argentina-authentic-away-2627.jpg",
     externalUrl:
@@ -120,6 +179,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "SOUTH AFRICA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/south-africa-away-2627.png",
     externalUrl:
@@ -132,6 +192,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "REAL MADRID",
+    league: "LA LIGA",
     categorySlug: "2026-27",
     image: "/jerseys/real-madrid-home-2627.jpg",
     externalUrl:
@@ -144,6 +205,7 @@ export const jerseys: Jersey[] = [
     type: "STADIUM",
     brand: "ADIDAS",
     team: "MANCHESTER UNITED",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/manchester-united-stadium-2627.jpg",
     externalUrl:
@@ -156,6 +218,7 @@ export const jerseys: Jersey[] = [
     type: "STADIUM",
     brand: "ADIDAS",
     team: "JUVENTUS",
+    league: "SERIE A",
     categorySlug: "2026-27",
     image: "/jerseys/juventus-stadium-2627.jpg",
     externalUrl:
@@ -168,6 +231,7 @@ export const jerseys: Jersey[] = [
     type: "GK",
     brand: "PUMA",
     team: "BORUSSIA DORTMUND",
+    league: "BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/borussia-dortmund-gk-2627.jpg",
     externalUrl:
@@ -180,6 +244,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "GERMANY",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/germany-home-2627.jpg",
     externalUrl:
@@ -192,6 +257,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "JUVENTUS",
+    league: "SERIE A",
     categorySlug: "2026-27",
     image: "/jerseys/juventus-home-2627.jpg",
     externalUrl:
@@ -204,6 +270,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "BELGIUM",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/belgium-away-2627.jpg",
     externalUrl:
@@ -216,6 +283,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "SAETA",
     team: "HAITI",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/haiti-home-2627.jpg",
     externalUrl:
@@ -228,6 +296,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "BAYERN MUNICH",
+    league: "BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/bayern-munich-home-2627.jpg",
     externalUrl:
@@ -240,6 +309,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "ALGERIA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/algeria-home-2627.jpg",
     externalUrl:
@@ -252,6 +322,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "ALGERIA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/algeria-away-2627.jpg",
     externalUrl:
@@ -264,6 +335,7 @@ export const jerseys: Jersey[] = [
     type: "THIRD",
     brand: "KAPPA",
     team: "TUNISIA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/tunisia-third-2627.jpg",
     externalUrl:
@@ -276,6 +348,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "COLOMBIA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/colombia-home-2627.jpg",
     externalUrl:
@@ -288,6 +361,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "ARGENTINA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/argentina-home-2627.jpg",
     externalUrl:
@@ -300,6 +374,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "MANCHESTER UNITED",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/manchester-united-home-2627.jpg",
     externalUrl:
@@ -312,6 +387,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "LIVERPOOL",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/liverpool-home-2627.jpg",
     externalUrl:
@@ -324,6 +400,7 @@ export const jerseys: Jersey[] = [
     type: "AUTHENTIC HOME",
     brand: "ADIDAS",
     team: "JAPAN",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/japan-authentic-home-2627.jpg",
     externalUrl:
@@ -336,6 +413,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "PUMA",
     team: "AC MILAN",
+    league: "SERIE A",
     categorySlug: "2026-27",
     image: "/jerseys/ac-milan-home-2627.jpg",
     externalUrl:
@@ -348,6 +426,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "PUMA",
     team: "IVORY COAST",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/ivory-coast-away-2627.jpg",
     externalUrl:
@@ -360,6 +439,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "PUMA",
     team: "GHANA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/ghana-away-2627.jpg",
     externalUrl:
@@ -372,6 +452,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "PUMA",
     team: "MANCHESTER CITY",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/manchester-city-home-2627.jpg",
     externalUrl:
@@ -384,6 +465,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "PUMA",
     team: "SENEGAL",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/senegal-away-2627.jpg",
     externalUrl:
@@ -396,6 +478,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "PUMA",
     team: "BORUSSIA DORTMUND",
+    league: "BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/borussia-dortmund-home-2627.jpg",
     externalUrl:
@@ -408,6 +491,7 @@ export const jerseys: Jersey[] = [
     type: "THIRD",
     brand: "ADIDAS",
     team: "AJAX",
+    league: "EREDIVISIE",
     categorySlug: "2026-27",
     image: "/jerseys/ajax-third-2627.jpg",
     externalUrl:
@@ -420,6 +504,7 @@ export const jerseys: Jersey[] = [
     type: "ORIGINALS PRE-MATCH",
     brand: "ADIDAS",
     team: "BELGIUM",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/belgium-originals-pre-match-2627.jpg",
     externalUrl:
@@ -432,6 +517,7 @@ export const jerseys: Jersey[] = [
     type: "ORIGINALS PRE-MATCH",
     brand: "ADIDAS",
     team: "ARGENTINA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/argentina-originals-pre-match-2627.jpg",
     externalUrl:
@@ -444,6 +530,7 @@ export const jerseys: Jersey[] = [
     type: "PRE-MATCH",
     brand: "ADIDAS",
     team: "SPAIN",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/spain-pre-match-2627.jpg",
     externalUrl:
@@ -456,6 +543,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "NIKE",
     team: "FRANCE",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/france-home-2627.jpg",
     externalUrl:
@@ -468,6 +556,7 @@ export const jerseys: Jersey[] = [
     type: "ORIGINALS EQT TEE",
     brand: "ADIDAS",
     team: "SPAIN",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/spain-originals-eqt-tee-2627.jpg",
     externalUrl:
@@ -480,6 +569,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "NIKE",
     team: "ENGLAND",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/england-away-2627.jpg",
     externalUrl:
@@ -492,6 +582,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "MEXICO",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/mexico-home-2627.jpg",
     externalUrl:
@@ -504,6 +595,7 @@ export const jerseys: Jersey[] = [
     type: "GK",
     brand: "NIKE",
     team: "ENGLAND",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/england-gk-2627.jpg",
     externalUrl:
@@ -516,6 +608,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "CAPELLI",
     team: "CAPE VERDE",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/cape-verde-home-2627.jpg",
     externalUrl:
@@ -528,6 +621,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "LENS",
+    league: "LIGUE 1",
     categorySlug: "2026-27",
     image: "/jerseys/lens-away-2627.jpg",
     externalUrl:
@@ -540,6 +634,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "GERMANY",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/germany-away-2627.jpg",
     externalUrl:
@@ -552,6 +647,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "NEW BALANCE",
     team: "PORTO",
+    league: "PRIMEIRA LIGA",
     categorySlug: "2026-27",
     image: "/jerseys/porto-away-2627.jpg",
     externalUrl:
@@ -564,6 +660,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "PUMA",
     team: "CZECH REPUBLIC",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/czech-republic-away-2627.jpg",
     externalUrl:
@@ -576,6 +673,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "ADIDAS",
     team: "MEXICO",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/mexico-away-2627.jpg",
     externalUrl:
@@ -588,6 +686,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "NIKE",
     team: "USA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/usa-away-2627.jpg",
     externalUrl:
@@ -600,6 +699,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY KIDS",
     brand: "ADIDAS",
     team: "BAYERN MUNICH",
+    league: "BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/bayern-munich-away-kids-2627.jpg",
     externalUrl:
@@ -612,6 +712,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "HUMMEL",
     team: "REAL BETIS",
+    league: "LA LIGA",
     categorySlug: "2026-27",
     image: "/jerseys/real-betis-home-2627.jpg",
     externalUrl:
@@ -624,6 +725,7 @@ export const jerseys: Jersey[] = [
     type: "AUTHENTIC AWAY",
     brand: "JORDAN",
     team: "BRAZIL",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/brazil-authentic-away-2627.jpg",
     externalUrl:
@@ -636,6 +738,7 @@ export const jerseys: Jersey[] = [
     type: "PRE-MATCH",
     brand: "PUMA",
     team: "SWITZERLAND",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/switzerland-pre-match-2627.jpg",
     externalUrl:
@@ -648,6 +751,7 @@ export const jerseys: Jersey[] = [
     type: "GK",
     brand: "PUMA",
     team: "PORTUGAL",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/portugal-gk-2627.jpg",
     externalUrl:
@@ -660,6 +764,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "PUMA",
     team: "RB SALZBURG",
+    league: "AUSTRIAN BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/rb-salzburg-away-2627.jpg",
     externalUrl:
@@ -672,6 +777,7 @@ export const jerseys: Jersey[] = [
     type: "AUTHENTIC HOME",
     brand: "ADIDAS",
     team: "BELGIUM",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/belgium-authentic-home-2627.jpg",
     externalUrl:
@@ -684,6 +790,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "LYON",
+    league: "LIGUE 1",
     categorySlug: "2026-27",
     image: "/jerseys/lyon-home-2627.jpg",
     externalUrl:
@@ -696,6 +803,7 @@ export const jerseys: Jersey[] = [
     type: "AUTHENTIC AWAY",
     brand: "ADIDAS",
     team: "COLOMBIA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/colombia-authentic-away-2627.jpg",
     externalUrl:
@@ -708,6 +816,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "KAPPA",
     team: "TUNISIA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/tunisia-home-2627.jpg",
     externalUrl:
@@ -720,6 +829,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "FC KOLN",
+    league: "BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/fc-koln-home-2627.jpg",
     externalUrl:
@@ -732,6 +842,7 @@ export const jerseys: Jersey[] = [
     type: "ORIGINALS PRE-MATCH",
     brand: "ADIDAS",
     team: "GERMANY",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/germany-originals-pre-match-2627.jpg",
     externalUrl:
@@ -744,6 +855,7 @@ export const jerseys: Jersey[] = [
     type: "STADIUM",
     brand: "ADIDAS",
     team: "LIVERPOOL",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/liverpool-stadium-2627.jpg",
     externalUrl:
@@ -756,6 +868,7 @@ export const jerseys: Jersey[] = [
     type: "PRE-MATCH",
     brand: "PUMA",
     team: "PORTUGAL",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/portugal-pre-match-2627.jpg",
     externalUrl:
@@ -768,6 +881,7 @@ export const jerseys: Jersey[] = [
     type: "STADIUM",
     brand: "ADIDAS",
     team: "REAL MADRID",
+    league: "LA LIGA",
     categorySlug: "2026-27",
     image: "/jerseys/real-madrid-stadium-2627.jpg",
     externalUrl:
@@ -780,6 +894,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "NEW BALANCE",
     team: "ATALANTA",
+    league: "SERIE A",
     categorySlug: "2026-27",
     image: "/jerseys/atalanta-home-2627.jpg",
     externalUrl:
@@ -792,6 +907,7 @@ export const jerseys: Jersey[] = [
     type: "GK",
     brand: "PUMA",
     team: "AUSTRIA",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/austria-gk-2627.jpg",
     externalUrl:
@@ -804,6 +920,7 @@ export const jerseys: Jersey[] = [
     type: "GK",
     brand: "PUMA",
     team: "MANCHESTER CITY",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/manchester-city-gk-2627.jpg",
     externalUrl:
@@ -816,6 +933,7 @@ export const jerseys: Jersey[] = [
     type: "PRE-MATCH",
     brand: "PUMA",
     team: "IVORY COAST",
+    league: "",
     categorySlug: "world-cup-2026",
     image: "/jerseys/ivory-coast-pre-match-2627.jpg",
     externalUrl:
@@ -828,6 +946,7 @@ export const jerseys: Jersey[] = [
     type: "AWAY",
     brand: "PUMA",
     team: "OLYMPIQUE MARSEILLE",
+    league: "LIGUE 1",
     categorySlug: "2026-27",
     image: "/jerseys/olympique-marseille-away-2627.jpg",
     externalUrl:
@@ -840,6 +959,7 @@ export const jerseys: Jersey[] = [
     type: "STADIUM",
     brand: "ADIDAS",
     team: "ARSENAL",
+    league: "PREMIER LEAGUE",
     categorySlug: "2026-27",
     image: "/jerseys/arsenal-stadium-2627.jpg",
     externalUrl:
@@ -852,6 +972,7 @@ export const jerseys: Jersey[] = [
     type: "STADIUM",
     brand: "ADIDAS",
     team: "BAYERN MUNICH",
+    league: "BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/bayern-munich-stadium-2627.jpg",
     externalUrl:
@@ -864,6 +985,7 @@ export const jerseys: Jersey[] = [
     type: "HOME",
     brand: "ADIDAS",
     team: "EINTRACHT FRANKFURT",
+    league: "BUNDESLIGA",
     categorySlug: "2026-27",
     image: "/jerseys/eintracht-frankfurt-home-2627.jpg",
     externalUrl:

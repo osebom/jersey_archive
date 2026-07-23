@@ -19,6 +19,7 @@ import {
 type CategoryBrowseProps = {
   title: string;
   jerseys: Jersey[];
+  filterKeys?: FilterKey[];
 };
 
 function FilterDropdown({
@@ -143,28 +144,35 @@ function SelectedChips({
   );
 }
 
-export default function CategoryBrowse({ title, jerseys }: CategoryBrowseProps) {
+export default function CategoryBrowse({
+  title,
+  jerseys,
+  filterKeys = FILTER_KEYS,
+}: CategoryBrowseProps) {
   const [selected, setSelected] = useState<SelectedFilters>(EMPTY_FILTERS);
   const [openFilter, setOpenFilter] = useState<FilterKey | null>(null);
 
   const options = useMemo(
-    () => getAvailableOptionsMap(jerseys, selected),
-    [jerseys, selected]
+    () => getAvailableOptionsMap(jerseys, selected, filterKeys),
+    [jerseys, selected, filterKeys]
   );
 
   useEffect(() => {
-    const pruned = pruneSelectedFilters(jerseys, selected);
-    if (!filtersEqual(pruned, selected)) {
+    const pruned = pruneSelectedFilters(jerseys, selected, filterKeys);
+    if (!filtersEqual(pruned, selected, filterKeys)) {
       setSelected(pruned);
     }
-  }, [jerseys, selected]);
+  }, [jerseys, selected, filterKeys]);
 
   const filtered = useMemo(
-    () => filterJerseys(jerseys, selected),
-    [jerseys, selected]
+    () => filterJerseys(jerseys, selected, filterKeys),
+    [jerseys, selected, filterKeys]
   );
 
-  const chips = useMemo(() => getSelectedChips(selected), [selected]);
+  const chips = useMemo(
+    () => getSelectedChips(selected, filterKeys),
+    [selected, filterKeys]
+  );
 
   const toggleValue = (key: FilterKey, value: string) => {
     setSelected((prev) => {
@@ -175,7 +183,7 @@ export default function CategoryBrowse({ title, jerseys }: CategoryBrowseProps) 
           ? prev[key].filter((item) => item !== value)
           : [...prev[key], value],
       };
-      return pruneSelectedFilters(jerseys, next);
+      return pruneSelectedFilters(jerseys, next, filterKeys);
     });
   };
 
@@ -185,11 +193,9 @@ export default function CategoryBrowse({ title, jerseys }: CategoryBrowseProps) 
         ...prev,
         [key]: prev[key].filter((item) => item !== value),
       };
-      return pruneSelectedFilters(jerseys, next);
+      return pruneSelectedFilters(jerseys, next, filterKeys);
     });
   };
-
-  const filterKeys = FILTER_KEYS;
 
   const filters = (
     <div className="space-y-4 lg:space-y-8">
@@ -205,7 +211,7 @@ export default function CategoryBrowse({ title, jerseys }: CategoryBrowseProps) 
             key={key}
             label={FILTER_LABELS[key]}
             filterKey={key}
-            options={options[key]}
+            options={options[key] ?? []}
             selected={selected[key]}
             count={selected[key].length}
             open={openFilter === key}

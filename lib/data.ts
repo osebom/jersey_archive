@@ -56,6 +56,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
   },
   {
+    id: "cfs-arsenal-away-2627",
+    code: "AS-27",
+    name: "ARSENAL 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "ARSENAL",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/arsenal-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-arsenal-away-shirtjz3160.html?ref=ojaykits",
+  },
+  {
     id: "cfs-real-madrid-away-2627",
     code: "RM-28",
     name: "REAL MADRID 26/27 AWAY",
@@ -730,6 +743,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/brazil-authentic-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-brazil-authentic-away-shirtiu1074-417.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-austria-pre-match-2627",
+    code: "AU-27",
+    name: "AUSTRIA 26/27 PRE-MATCH",
+    type: "PRE-MATCH",
+    brand: "PUMA",
+    team: "AUSTRIA",
+    league: "",
+    categorySlug: "world-cup-2026",
+    image: "/jerseys/austria-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-austria-puma-pre-match-shirt783883-12.html?ref=ojaykits",
   },
   {
     id: "cfs-switzerland-pre-match-2627",

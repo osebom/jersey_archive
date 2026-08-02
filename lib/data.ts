@@ -121,6 +121,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-arsenal-away-shirtjz3160.html?ref=ojaykits",
   },
   {
+    id: "cfs-club-america-home-2627",
+    code: "CA-26",
+    name: "CLUB AMERICA 26/27 HOME",
+    type: "HOME",
+    brand: "ADIDAS",
+    team: "CLUB AMERICA",
+    league: "LIGA MX",
+    categorySlug: "2026-27",
+    image: "/jerseys/club-america-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-club-america-home-shirtkb9016.html?ref=ojaykits",
+  },
+  {
     id: "cfs-barcelona-away-2627",
     code: "BC-26",
     name: "BARCELONA 26/27 AWAY",

@@ -95,6 +95,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-ac-milan-away-shirt784130-02.html?ref=ojaykits",
   },
   {
+    id: "cfs-club-america-authentic-away-2627",
+    code: "CA-27",
+    name: "CLUB AMERICA 26/27 AUTHENTIC AWAY",
+    type: "AUTHENTIC AWAY",
+    brand: "ADIDAS",
+    team: "CLUB AMERICA",
+    league: "LIGA MX",
+    categorySlug: "2026-27",
+    image: "/jerseys/club-america-authentic-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-club-america-authentic-away-shirtkb9021.html?ref=ojaykits",
+  },
+  {
     id: "cfs-liverpool-gk-away-2627",
     code: "LV-29",
     name: "LIVERPOOL 26/27 GK AWAY",
@@ -119,6 +132,32 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/arsenal-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-arsenal-away-shirtjz3160.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-ac-milan-third-2627",
+    code: "AC-28",
+    name: "AC MILAN 26/27 THIRD",
+    type: "THIRD",
+    brand: "PUMA",
+    team: "AC MILAN",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/ac-milan-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-ac-milan-third-shirt784138-03.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-augsburg-home-2627",
+    code: "AG-26",
+    name: "AUGSBURG 26/27 HOME",
+    type: "HOME",
+    brand: "MIZUNO",
+    team: "AUGSBURG",
+    league: "BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/augsburg-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-augsburg-home-shirtp2gadx10.html?ref=ojaykits",
   },
   {
     id: "cfs-club-america-home-2627",
@@ -223,6 +262,45 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/ajax-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ajax-away-shirtjz4693.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-olympique-marseille-third-2627",
+    code: "OM-27",
+    name: "OLYMPIQUE MARSEILLE 26/27 THIRD",
+    type: "THIRD",
+    brand: "PUMA",
+    team: "OLYMPIQUE MARSEILLE",
+    league: "LIGUE 1",
+    categorySlug: "2026-27",
+    image: "/jerseys/olympique-marseille-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-olympique-marseille-third-shirt784274-03.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-st-pauli-home-2627",
+    code: "SP-26",
+    name: "ST PAULI 26/27 HOME",
+    type: "HOME",
+    brand: "PUMA",
+    team: "ST PAULI",
+    league: "BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/st-pauli-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-st-pauli-home-shirt785499-01.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-olympique-marseille-away-2627",
+    code: "OM-26",
+    name: "OLYMPIQUE MARSEILLE 26/27 AWAY",
+    type: "AWAY",
+    brand: "PUMA",
+    team: "OLYMPIQUE MARSEILLE",
+    league: "LIGUE 1",
+    categorySlug: "2026-27",
+    image: "/jerseys/olympique-marseille-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-olympique-marseille-away-shirt784263-02.html?ref=ojaykits",
   },
   {
     id: "cfs-eintracht-frankfurt-away-2627",
@@ -1094,19 +1172,6 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/ivory-coast-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ivory-coast-puma-pre-match-shirt784738-10.html?ref=ojaykits",
-  },
-  {
-    id: "cfs-olympique-marseille-away-2627",
-    code: "OM-26",
-    name: "OLYMPIQUE MARSEILLE 26/27 AWAY",
-    type: "AWAY",
-    brand: "PUMA",
-    team: "OLYMPIQUE MARSEILLE",
-    league: "LIGUE 1",
-    categorySlug: "2026-27",
-    image: "/jerseys/olympique-marseille-away-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-olympique-marseille-away-shirt784263-02.html?ref=ojaykits",
   },
   {
     id: "cfs-arsenal-stadium-2627",

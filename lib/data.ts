@@ -20,9 +20,9 @@ export type Category = {
 
 export const categories: Category[] = [
   {
-    slug: "world-cup-2026",
-    title: "2026 WORLD CUP",
-    navTitle: "2026 WORLD CUP",
+    slug: "national-teams",
+    title: "NATIONAL TEAMS",
+    navTitle: "NATIONAL TEAMS",
     previewImages: [
       "/jerseys/spain-away-2627.png",
       "/jerseys/south-africa-away-2627.png",
@@ -56,6 +56,305 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
   },
   {
+    id: "cfs-croatia-away-2627",
+    code: "HR-27",
+    name: "CROATIA 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "CROATIA",
+    league: "",
+    categorySlug: "national-teams",
+    image: "/jerseys/croatia-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-croatia-away-shirtkf4691.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-roma-away-2627",
+    code: "RO-28",
+    name: "ROMA 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "ROMA",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/roma-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-roma-away-shirtkv2833.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-inter-milan-player-issue-home-2627",
+    code: "IM-27",
+    name: "INTER MILAN 26/27 PLAYER ISSUE HOME",
+    type: "PLAYER ISSUE HOME",
+    brand: "NIKE",
+    team: "INTER MILAN",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/inter-milan-player-issue-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-inter-milan-player-issue-home-shirtii2736-409.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-boca-juniors-away-2627",
+    code: "BJ-26",
+    name: "BOCA JUNIORS 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "BOCA JUNIORS",
+    league: "LIGA PROFESIONAL",
+    categorySlug: "2026-27",
+    image: "/jerseys/boca-juniors-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-boca-juniors-away-shirtkd1518.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-bayern-munich-oktoberfest-fourth-2627",
+    code: "BM-29",
+    name: "BAYERN MUNICH 26/27 OKTOBERFEST FOURTH",
+    type: "OKTOBERFEST FOURTH",
+    brand: "ADIDAS",
+    team: "BAYERN MUNICH",
+    league: "BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/bayern-munich-oktoberfest-fourth-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-bayern-munich-oktoberfest-fourth-shirtkq6516.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-como-home-2627",
+    code: "CM-27",
+    name: "COMO 26/27 HOME",
+    type: "HOME",
+    brand: "ADIDAS",
+    team: "COMO",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/como-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-como-home-shirtkh1328.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-croatia-home-2627",
+    code: "HR-26",
+    name: "CROATIA 26/27 HOME",
+    type: "HOME",
+    brand: "ADIDAS",
+    team: "CROATIA",
+    league: "",
+    categorySlug: "national-teams",
+    image: "/jerseys/croatia-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-croatia-home-shirtkf4683.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-roma-home-2627",
+    code: "RO-26",
+    name: "ROMA 26/27 HOME",
+    type: "HOME",
+    brand: "ADIDAS",
+    team: "ROMA",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/roma-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-roma-home-shirtkw4631.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-paris-saint-germain-home-ls-2627",
+    code: "PS-26",
+    name: "PARIS SAINT-GERMAIN 26/27 HOME LS",
+    type: "HOME LS",
+    brand: "NIKE",
+    team: "PARIS SAINT-GERMAIN",
+    league: "LIGUE 1",
+    categorySlug: "2026-27",
+    image: "/jerseys/paris-saint-germain-home-ls-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-paris-saint-germain-home-ls-shirtiq6909-417.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-sampdoria-away-2627",
+    code: "SD-27",
+    name: "SAMPDORIA 26/27 AWAY",
+    type: "AWAY",
+    brand: "MACRON",
+    team: "SAMPDORIA",
+    league: "SERIE B",
+    categorySlug: "2026-27",
+    image: "/jerseys/sampdoria-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-sampdoria-away-shirt400125250001.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-olympique-marseille-king-relaxed-ls-2627",
+    code: "OM-28",
+    name: "OLYMPIQUE MARSEILLE 26/27 KING RELAXED LS",
+    type: "KING RELAXED LS",
+    brand: "PUMA",
+    team: "OLYMPIQUE MARSEILLE",
+    league: "LIGUE 1",
+    categorySlug: "2026-27",
+    image: "/jerseys/olympique-marseille-king-relaxed-ls-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-olympique-marseille-puma-king-relaxed-ls-shirt-10786478-42.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-como-away-2627",
+    code: "CM-26",
+    name: "COMO 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "COMO",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/como-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-como-away-shirtka4999.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-benfica-away-2627",
+    code: "BN-26",
+    name: "BENFICA 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "BENFICA",
+    league: "PRIMEIRA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/benfica-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-benfica-away-shirtkm2275.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-real-madrid-third-2627",
+    code: "RM-29",
+    name: "REAL MADRID 26/27 THIRD",
+    type: "THIRD",
+    brand: "ADIDAS",
+    team: "REAL MADRID",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/real-madrid-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-real-madrid-third-shirtia7520.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-aston-villa-authentic-away-2627",
+    code: "AV-26",
+    name: "ASTON VILLA 26/27 AUTHENTIC AWAY",
+    type: "AUTHENTIC AWAY",
+    brand: "ADIDAS",
+    team: "ASTON VILLA",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/aston-villa-authentic-away-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-aston-villa-authentic-away-shirtjz4728.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-portofino-away-2627",
+    code: "PF-26",
+    name: "PORTOFINO 26/27 AWAY",
+    type: "AWAY",
+    brand: "EZETA",
+    team: "PORTOFINO",
+    league: "TERZA CATEGORIA",
+    categorySlug: "2026-27",
+    image: "/jerseys/portofino-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-portofino-away-shirtporta26-wte.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-osasuna-away-2627",
+    code: "OS-26",
+    name: "OSASUNA 26/27 AWAY",
+    type: "AWAY",
+    brand: "MACRON",
+    team: "OSASUNA",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/osasuna-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-osasuna-away-shirt400126210001.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-roma-third-2627",
+    code: "RO-27",
+    name: "ROMA 26/27 THIRD",
+    type: "THIRD",
+    brand: "ADIDAS",
+    team: "ROMA",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/roma-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-roma-third-shirtjz7265.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-fulham-away-2627",
+    code: "FH-26",
+    name: "FULHAM 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "FULHAM",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/fulham-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-fulham-away-shirtjy8096.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-manchester-united-originals-eqt-2627",
+    code: "MU-29",
+    name: "MANCHESTER UNITED 26/27 ORIGINALS EQT",
+    type: "ORIGINALS EQT",
+    brand: "ADIDAS",
+    team: "MANCHESTER UNITED",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/manchester-united-originals-eqt-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-manchester-united-adidas-originals-eqt-training-shirt-kh4821.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-grimsby-town-third-2627",
+    code: "GT-26",
+    name: "GRIMSBY TOWN 26/27 THIRD",
+    type: "THIRD",
+    brand: "LOTTO",
+    team: "GRIMSBY TOWN",
+    league: "LEAGUE TWO",
+    categorySlug: "2026-27",
+    image: "/jerseys/grimsby-town-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-grimsby-town-third-shirtlt2222-gmgu.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-everton-third-2627",
+    code: "EV-26",
+    name: "EVERTON 26/27 THIRD",
+    type: "THIRD",
+    brand: "CASTORE",
+    team: "EVERTON",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/everton-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-everton-third-shirtpsm00337eve-j022.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-parma-away-2627",
+    code: "PA-26",
+    name: "PARMA 26/27 AWAY",
+    type: "AWAY",
+    brand: "PUMA",
+    team: "PARMA",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/parma-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-parma-away-shirt788077-02.html?ref=ojaykits",
+  },
+  {
     id: "cfs-liverpool-away-2627",
     code: "LV-28",
     name: "LIVERPOOL 26/27 AWAY",
@@ -67,6 +366,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/liverpool-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-liverpool-away-shirtka6860.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-espanyol-away-2627",
+    code: "EP-26",
+    name: "ESPANYOL 26/27 AWAY",
+    type: "AWAY",
+    brand: "KELME",
+    team: "ESPANYOL",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/espanyol-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-espanyol-away-shirtesp26tx1021.html?ref=ojaykits",
   },
   {
     id: "cfs-manchester-united-away-2627",
@@ -82,6 +394,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-manchester-united-away-shirtka6861.html?ref=ojaykits",
   },
   {
+    id: "cfs-torquay-united-home-2627",
+    code: "TQ-26",
+    name: "TORQUAY UNITED 26/27 HOME",
+    type: "HOME",
+    brand: "VX3",
+    team: "TORQUAY UNITED",
+    league: "NATIONAL LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/torquay-united-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-torquay-united-home-shirtp120933.html?ref=ojaykits",
+  },
+  {
     id: "cfs-ac-milan-away-2627",
     code: "AC-27",
     name: "AC MILAN 26/27 AWAY",
@@ -93,6 +418,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/ac-milan-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ac-milan-away-shirt784130-02.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-sampdoria-third-2627",
+    code: "SD-26",
+    name: "SAMPDORIA 26/27 THIRD",
+    type: "THIRD",
+    brand: "MACRON",
+    team: "SAMPDORIA",
+    league: "SERIE B",
+    categorySlug: "2026-27",
+    image: "/jerseys/sampdoria-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-sampdoria-third-shirt400125290001.html?ref=ojaykits",
   },
   {
     id: "cfs-club-america-authentic-away-2627",
@@ -108,6 +446,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-club-america-authentic-away-shirtkb9021.html?ref=ojaykits",
   },
   {
+    id: "cfs-montreal-impact-third-2627",
+    code: "MT-26",
+    name: "MONTREAL IMPACT 26/27 THIRD",
+    type: "THIRD",
+    brand: "ADIDAS",
+    team: "MONTREAL IMPACT",
+    league: "MLS",
+    categorySlug: "2026-27",
+    image: "/jerseys/montreal-impact-third-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-montreal-impact-third-shirtjy5905.html?ref=ojaykits",
+  },
+  {
     id: "cfs-liverpool-gk-away-2627",
     code: "LV-29",
     name: "LIVERPOOL 26/27 GK AWAY",
@@ -119,6 +470,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/liverpool-gk-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-liverpool-gk-away-shirtkt2081.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-rb-salzburg-home-2627",
+    code: "SB-27",
+    name: "RB SALZBURG 26/27 HOME",
+    type: "HOME",
+    brand: "PUMA",
+    team: "RB SALZBURG",
+    league: "AUSTRIAN BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/rb-salzburg-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-rb-salzburg-home-shirt784368-01.html?ref=ojaykits",
   },
   {
     id: "cfs-arsenal-away-2627",
@@ -134,6 +498,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-arsenal-away-shirtjz3160.html?ref=ojaykits",
   },
   {
+    id: "cfs-juventus-originals-pre-match-2627",
+    code: "JV-29",
+    name: "JUVENTUS 26/27 ORIGINALS PRE-MATCH",
+    type: "ORIGINALS PRE-MATCH",
+    brand: "ADIDAS",
+    team: "JUVENTUS",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/juventus-originals-pre-match-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-juventus-adidas-originals-pre-match-shirtkg4514.html?ref=ojaykits",
+  },
+  {
     id: "cfs-ac-milan-third-2627",
     code: "AC-28",
     name: "AC MILAN 26/27 THIRD",
@@ -147,6 +524,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-ac-milan-third-shirt784138-03.html?ref=ojaykits",
   },
   {
+    id: "cfs-burgos-cf-third-2627",
+    code: "BG-26",
+    name: "BURGOS CF 26/27 THIRD",
+    type: "THIRD",
+    brand: "MACRON",
+    team: "BURGOS CF",
+    league: "LA LIGA 2",
+    categorySlug: "2026-27",
+    image: "/jerseys/burgos-cf-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-burgos-cf-third-shirt400126970001.html?ref=ojaykits",
+  },
+  {
     id: "cfs-augsburg-home-2627",
     code: "AG-26",
     name: "AUGSBURG 26/27 HOME",
@@ -158,6 +548,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/augsburg-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-augsburg-home-shirtp2gadx10.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-feyenoord-away-2627",
+    code: "FY-26",
+    name: "FEYENOORD 26/27 AWAY",
+    type: "AWAY",
+    brand: "CASTORE",
+    team: "FEYENOORD",
+    league: "EREDIVISIE",
+    categorySlug: "2026-27",
+    image: "/jerseys/feyenoord-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-feyenoord-away-shirtpsm00192fey-c012.html?ref=ojaykits",
   },
   {
     id: "cfs-club-america-home-2627",
@@ -375,7 +778,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "SPAIN",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/spain-away-2627.png",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-spain-away-shirt-jn4397.html?ref=ojaykits",
@@ -388,7 +791,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "ARGENTINA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/argentina-authentic-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-argentina-authentic-away-shirt-jm5901.html?ref=ojaykits",
@@ -401,7 +804,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "SOUTH AFRICA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/south-africa-away-2627.png",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-south-africa-away-shirtky2217.html?ref=ojaykits",
@@ -414,7 +817,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "AUSTRIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/austria-gk-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-austria-gk-shirt785547-83.html?ref=ojaykits",
@@ -479,7 +882,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "GERMANY",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/germany-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-germany-home-shirtkd8363.html?ref=ojaykits",
@@ -505,7 +908,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "BELGIUM",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/belgium-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-belgium-away-shirtjm8386.html?ref=ojaykits",
@@ -518,7 +921,7 @@ export const jerseys: Jersey[] = [
     brand: "SAETA",
     team: "HAITI",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/haiti-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-haiti-home-shirthaiti-fan-blu.html?ref=ojaykits",
@@ -544,7 +947,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "ALGERIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/algeria-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-algeria-home-shirtjn4457.html?ref=ojaykits",
@@ -557,7 +960,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "ALGERIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/algeria-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-algeria-away-shirtjn4456.html?ref=ojaykits",
@@ -570,7 +973,7 @@ export const jerseys: Jersey[] = [
     brand: "KAPPA",
     team: "TUNISIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/tunisia-third-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-tunisia-third-shirt34255vw-tnf-a0g.html?ref=ojaykits",
@@ -583,7 +986,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "COLOMBIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/colombia-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-colombia-home-shirtjl6972.html?ref=ojaykits",
@@ -596,7 +999,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "ARGENTINA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/argentina-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-argentina-home-shirtjm8396.html?ref=ojaykits",
@@ -635,7 +1038,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "JAPAN",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/japan-authentic-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-japan-authentic-home-shirtjn1867.html?ref=ojaykits",
@@ -661,7 +1064,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "IVORY COAST",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/ivory-coast-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ivory-coast-away-shirt783188-02.html?ref=ojaykits",
@@ -674,7 +1077,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "GHANA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/ghana-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ghana-away-shirt783425-02.html?ref=ojaykits",
@@ -700,7 +1103,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "SENEGAL",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/senegal-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-senegal-away-shirt783171-02.html?ref=ojaykits",
@@ -739,7 +1142,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "BELGIUM",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/belgium-originals-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-belgium-adidas-originals-pre-match-shirtjy7642.html?ref=ojaykits",
@@ -752,7 +1155,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "ARGENTINA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/argentina-originals-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-argentina-adidas-originals-pre-match-shirtjy9535.html?ref=ojaykits",
@@ -765,7 +1168,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "SPAIN",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/spain-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-spain-adidas-pre-match-shirtka1906.html?ref=ojaykits",
@@ -778,7 +1181,7 @@ export const jerseys: Jersey[] = [
     brand: "NIKE",
     team: "FRANCE",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/france-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-france-home-shirtib5300-480.html?ref=ojaykits",
@@ -791,7 +1194,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "SPAIN",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/spain-originals-eqt-tee-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-spain-adidas-originals-equipment-teekg2574.html?ref=ojaykits",
@@ -804,7 +1207,7 @@ export const jerseys: Jersey[] = [
     brand: "NIKE",
     team: "ENGLAND",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/england-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-england-away-shirtib5361-624.html?ref=ojaykits",
@@ -817,7 +1220,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "MEXICO",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/mexico-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-mexico-home-shirtjl8580.html?ref=ojaykits",
@@ -830,7 +1233,7 @@ export const jerseys: Jersey[] = [
     brand: "NIKE",
     team: "ENGLAND",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/england-gk-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-england-gk-shirtib5295-489.html?ref=ojaykits",
@@ -843,7 +1246,7 @@ export const jerseys: Jersey[] = [
     brand: "CAPELLI",
     team: "CAPE VERDE",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/cape-verde-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-cape-verde-home-shirtaga-14277r.html?ref=ojaykits",
@@ -869,7 +1272,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "GERMANY",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/germany-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-germany-away-shirtjn2074.html?ref=ojaykits",
@@ -895,7 +1298,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "CZECH REPUBLIC",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/czech-republic-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-czech-republic-away-shirt783257-06.html?ref=ojaykits",
@@ -908,7 +1311,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "MEXICO",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/mexico-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-mexico-away-shirtjz0736.html?ref=ojaykits",
@@ -921,7 +1324,7 @@ export const jerseys: Jersey[] = [
     brand: "NIKE",
     team: "USA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/usa-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-usa-away-shirtib5395-475.html?ref=ojaykits",
@@ -960,7 +1363,7 @@ export const jerseys: Jersey[] = [
     brand: "JORDAN",
     team: "BRAZIL",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/brazil-authentic-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-brazil-authentic-away-shirtiu1074-417.html?ref=ojaykits",
@@ -973,7 +1376,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "AUSTRIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/austria-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-austria-puma-pre-match-shirt783883-12.html?ref=ojaykits",
@@ -986,7 +1389,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "SWITZERLAND",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/switzerland-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-switzerland-puma-pre-match-shirt784187-06.html?ref=ojaykits",
@@ -999,7 +1402,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "PORTUGAL",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/portugal-gk-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-portugal-gk-shirt787101-81.html?ref=ojaykits",
@@ -1025,7 +1428,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "BELGIUM",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/belgium-authentic-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-belgium-authentic-home-shirtjm8378.html?ref=ojaykits",
@@ -1051,7 +1454,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "COLOMBIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/colombia-authentic-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-colombia-authentic-away-shirtjl6973.html?ref=ojaykits",
@@ -1064,7 +1467,7 @@ export const jerseys: Jersey[] = [
     brand: "KAPPA",
     team: "TUNISIA",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/tunisia-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-tunisia-home-shirt34255vw-tnf-a01.html?ref=ojaykits",
@@ -1090,7 +1493,7 @@ export const jerseys: Jersey[] = [
     brand: "ADIDAS",
     team: "GERMANY",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/germany-originals-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-germany-adidas-originals-pre-match-shirtjz4578.html?ref=ojaykits",
@@ -1116,7 +1519,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "PORTUGAL",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/portugal-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-portugal-puma-pre-match-shirt784788-38.html?ref=ojaykits",
@@ -1168,7 +1571,7 @@ export const jerseys: Jersey[] = [
     brand: "PUMA",
     team: "IVORY COAST",
     league: "",
-    categorySlug: "world-cup-2026",
+    categorySlug: "national-teams",
     image: "/jerseys/ivory-coast-pre-match-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-ivory-coast-puma-pre-match-shirt784738-10.html?ref=ojaykits",

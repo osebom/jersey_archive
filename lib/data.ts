@@ -43,6 +43,19 @@ export const categories: Category[] = [
 
 export const jerseys: Jersey[] = [
   {
+    id: "cfs-augsburg-third-2627",
+    code: "AG-27",
+    name: "AUGSBURG 26/27 THIRD",
+    type: "THIRD",
+    brand: "MIZUNO",
+    team: "AUGSBURG",
+    league: "BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/augsburg-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-augsburg-third-shirt-p2gadx1280.html?ref=ojaykits",
+  },
+  {
     id: "cfs-juventus-away-2627",
     code: "JV-28",
     name: "JUVENTUS 26/27 AWAY",
@@ -69,6 +82,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-croatia-away-shirtkf4691.html?ref=ojaykits",
   },
   {
+    id: "cfs-genoa-away-2627",
+    code: "GN-26",
+    name: "GENOA 26/27 AWAY",
+    type: "AWAY",
+    brand: "KAPPA",
+    team: "GENOA",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/genoa-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-genoa-away-shirt33263rw.html?ref=ojaykits",
+  },
+  {
     id: "cfs-roma-away-2627",
     code: "RO-28",
     name: "ROMA 26/27 AWAY",
@@ -82,6 +108,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-roma-away-shirtkv2833.html?ref=ojaykits",
   },
   {
+    id: "cfs-liverpool-originals-eqt-2627",
+    code: "LV-30",
+    name: "LIVERPOOL 26/27 ORIGINALS EQT",
+    type: "ORIGINALS EQT",
+    brand: "ADIDAS",
+    team: "LIVERPOOL",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/liverpool-originals-eqt-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-liverpool-adidas-originals-eqt-training-jerseykg2915.html?ref=ojaykits",
+  },
+  {
     id: "cfs-inter-milan-player-issue-home-2627",
     code: "IM-27",
     name: "INTER MILAN 26/27 PLAYER ISSUE HOME",
@@ -93,6 +132,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/inter-milan-player-issue-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-inter-milan-player-issue-home-shirtii2736-409.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-venezia-home-2627",
+    code: "VE-26",
+    name: "VENEZIA 26/27 HOME",
+    type: "HOME",
+    brand: "NOCTA",
+    team: "VENEZIA",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/venezia-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-venezia-home-shirtvg0090sc.html?ref=ojaykits",
   },
   {
     id: "cfs-boca-juniors-away-2627",
@@ -145,6 +197,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/croatia-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-croatia-home-shirtkf4683.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-real-betis-away-2627",
+    code: "RB-27",
+    name: "REAL BETIS 26/27 AWAY",
+    type: "AWAY",
+    brand: "HUMMEL",
+    team: "REAL BETIS",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/real-betis-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-real-betis-away-shirt237771-5323.html?ref=ojaykits",
   },
   {
     id: "cfs-roma-home-2627",

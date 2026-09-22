@@ -537,6 +537,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-liverpool-gk-away-shirtkt2081.html?ref=ojaykits",
   },
   {
+    id: "cfs-crystal-palace-third-2627",
+    code: "CP-26",
+    name: "CRYSTAL PALACE 26/27 THIRD",
+    type: "THIRD",
+    brand: "MACRON",
+    team: "CRYSTAL PALACE",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/crystal-palace-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-crystal-palace-third-shirt600153300001.html?ref=ojaykits",
+  },
+  {
     id: "cfs-rb-salzburg-home-2627",
     code: "SB-27",
     name: "RB SALZBURG 26/27 HOME",
@@ -602,6 +615,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-burgos-cf-third-shirt400126970001.html?ref=ojaykits",
   },
   {
+    id: "cfs-burgos-cf-away-2627",
+    code: "BG-27",
+    name: "BURGOS CF 26/27 AWAY",
+    type: "AWAY",
+    brand: "MACRON",
+    team: "BURGOS CF",
+    league: "LA LIGA 2",
+    categorySlug: "2026-27",
+    image: "/jerseys/burgos-cf-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-burgos-cf-away-shirt400126930001.html?ref=ojaykits",
+  },
+  {
     id: "cfs-augsburg-home-2627",
     code: "AG-26",
     name: "AUGSBURG 26/27 HOME",
@@ -639,6 +665,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/club-america-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-club-america-home-shirtkb9016.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-club-america-originals-eqt-2627",
+    code: "CA-28",
+    name: "CLUB AMERICA 26/27 ORIGINALS EQT",
+    type: "ORIGINALS EQT",
+    brand: "ADIDAS",
+    team: "CLUB AMERICA",
+    league: "LIGA MX",
+    categorySlug: "2026-27",
+    image: "/jerseys/club-america-originals-eqt-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-club-america-adidas-originals-eqt-training-jerseykg7632.html?ref=ojaykits",
   },
   {
     id: "cfs-barcelona-away-2627",
@@ -808,6 +847,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/inter-milan-authentic-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-inter-milan-authentic-away-shirtii1792-101.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-inter-milan-third-2627",
+    code: "IM-28",
+    name: "INTER MILAN 26/27 THIRD",
+    type: "THIRD",
+    brand: "NIKE",
+    team: "INTER MILAN",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/inter-milan-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-inter-milan-third-shirt-ii6653-069.html?ref=ojaykits",
   },
   {
     id: "cfs-lyon-third-2627",
@@ -1666,6 +1718,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/bayern-munich-stadium-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-bayern-munich-adidas-stadium-shirtkg2243.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-vancouver-whitecaps-third-2627",
+    code: "VW-26",
+    name: "VANCOUVER WHITECAPS 26/27 THIRD",
+    type: "THIRD",
+    brand: "ADIDAS",
+    team: "VANCOUVER WHITECAPS",
+    league: "MLS",
+    categorySlug: "2026-27",
+    image: "/jerseys/vancouver-whitecaps-third-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-vancouver-whitecaps-third-shirt-jy5906.html?ref=ojaykits",
   },
   {
     id: "cfs-eintracht-frankfurt-home-2627",

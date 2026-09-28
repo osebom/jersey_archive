@@ -69,6 +69,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
   },
   {
+    id: "cfs-atalanta-third-2627",
+    code: "AT-28",
+    name: "ATALANTA 26/27 THIRD",
+    type: "THIRD",
+    brand: "NEW BALANCE",
+    team: "ATALANTA",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/atalanta-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-atalanta-third-shirtmt62v0oy.html?ref=ojaykits",
+  },
+  {
     id: "cfs-croatia-away-2627",
     code: "HR-27",
     name: "CROATIA 26/27 AWAY",
@@ -93,6 +106,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/genoa-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-genoa-away-shirt33263rw.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-germany-third-2627",
+    code: "DE-28",
+    name: "GERMANY 26/27 THIRD",
+    type: "THIRD",
+    brand: "ADIDAS",
+    team: "GERMANY",
+    league: "",
+    categorySlug: "national-teams",
+    image: "/jerseys/germany-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-germany-third-shirtks5261.html?ref=ojaykits",
   },
   {
     id: "cfs-roma-away-2627",

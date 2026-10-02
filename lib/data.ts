@@ -69,6 +69,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-juventus-away-shirtkr4647.html?ref=ojaykits",
   },
   {
+    id: "cfs-greece-away-tzolis-2627",
+    code: "GR-26",
+    name: "GREECE 26/27 AWAY TZOLIS",
+    type: "AWAY TZOLIS",
+    brand: "ADIDAS",
+    team: "GREECE",
+    league: "",
+    categorySlug: "national-teams",
+    image: "/jerseys/greece-away-tzolis-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-greece-away-shirt-tzolis-10kf3547-10tzolis.html?ref=ojaykits",
+  },
+  {
     id: "cfs-atalanta-third-2627",
     code: "AT-28",
     name: "ATALANTA 26/27 THIRD",
@@ -95,6 +108,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-croatia-away-shirtkf4691.html?ref=ojaykits",
   },
   {
+    id: "cfs-como-home-2627",
+    code: "CM-27",
+    name: "COMO 26/27 HOME",
+    type: "HOME",
+    brand: "ADIDAS",
+    team: "COMO",
+    league: "SERIE A",
+    categorySlug: "2026-27",
+    image: "/jerseys/como-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-como-home-shirtkh1328.html?ref=ojaykits",
+  },
+  {
     id: "cfs-genoa-away-2627",
     code: "GN-26",
     name: "GENOA 26/27 AWAY",
@@ -119,6 +145,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/germany-third-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-germany-third-shirtks5261.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-tigres-away-2627",
+    code: "TG-26",
+    name: "TIGRES 26/27 AWAY",
+    type: "AWAY",
+    brand: "ADIDAS",
+    team: "TIGRES",
+    league: "LIGA MX",
+    categorySlug: "2026-27",
+    image: "/jerseys/tigres-away-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-tigres-away-shirtkv6485.html?ref=ojaykits",
   },
   {
     id: "cfs-roma-away-2627",
@@ -186,6 +225,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-boca-juniors-away-shirtkd1518.html?ref=ojaykits",
   },
   {
+    id: "cfs-lille-away-2627",
+    code: "LL-26",
+    name: "LILLE 26/27 AWAY",
+    type: "AWAY",
+    brand: "NEW BALANCE",
+    team: "LILLE",
+    league: "LIGUE 1",
+    categorySlug: "2026-27",
+    image: "/jerseys/lille-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-lille-away-shirtmt62a0b9.html?ref=ojaykits",
+  },
+  {
     id: "cfs-bayern-munich-oktoberfest-fourth-2627",
     code: "BM-29",
     name: "BAYERN MUNICH 26/27 OKTOBERFEST FOURTH",
@@ -199,17 +251,43 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-bayern-munich-oktoberfest-fourth-shirtkq6516.html?ref=ojaykits",
   },
   {
-    id: "cfs-como-home-2627",
-    code: "CM-27",
-    name: "COMO 26/27 HOME",
-    type: "HOME",
-    brand: "ADIDAS",
-    team: "COMO",
-    league: "SERIE A",
+    id: "cfs-athens-kallithea-away-ls-2627",
+    code: "AK-26",
+    name: "ATHENS KALLITHEA 26/27 AWAY LS",
+    type: "AWAY LS",
+    brand: "KAPPA",
+    team: "ATHENS KALLITHEA",
+    league: "SUPER LEAGUE GREECE",
     categorySlug: "2026-27",
-    image: "/jerseys/como-home-2627.jpg",
+    image: "/jerseys/athens-kallithea-away-ls-2627.jpg",
     externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-como-home-shirtkh1328.html?ref=ojaykits",
+      "https://www.classicfootballshirts.com/2026-27-athens-kallithea-away-ls-shirt36281zw.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-chelsea-home-2627",
+    code: "CF-26",
+    name: "CHELSEA 26/27 HOME",
+    type: "HOME",
+    brand: "NIKE",
+    team: "CHELSEA",
+    league: "PREMIER LEAGUE",
+    categorySlug: "2026-27",
+    image: "/jerseys/chelsea-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-chelsea-home-shirtii1904-453.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-austin-fc-third-2627",
+    code: "AF-26",
+    name: "AUSTIN FC 26/27 THIRD",
+    type: "THIRD",
+    brand: "ADIDAS",
+    team: "AUSTIN FC",
+    league: "MLS",
+    categorySlug: "2026-27",
+    image: "/jerseys/austin-fc-third-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-austin-fc-third-shirt-jy5894.html?ref=ojaykits",
   },
   {
     id: "cfs-croatia-home-2627",
@@ -225,6 +303,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-croatia-home-shirtkf4683.html?ref=ojaykits",
   },
   {
+    id: "cfs-celta-vigo-third-2627",
+    code: "CE-26",
+    name: "CELTA VIGO 26/27 THIRD",
+    type: "THIRD",
+    brand: "HUMMEL",
+    team: "CELTA VIGO",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/celta-vigo-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-celta-vigo-third-shirt237562-3027.html?ref=ojaykits",
+  },
+  {
     id: "cfs-real-betis-away-2627",
     code: "RB-27",
     name: "REAL BETIS 26/27 AWAY",
@@ -238,6 +329,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-real-betis-away-shirt237771-5323.html?ref=ojaykits",
   },
   {
+    id: "cfs-bayer-leverkusen-fourth-2627",
+    code: "BL-26",
+    name: "BAYER LEVERKUSEN 26/27 FOURTH",
+    type: "FOURTH",
+    brand: "NEW BALANCE",
+    team: "BAYER LEVERKUSEN",
+    league: "BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/bayer-leverkusen-fourth-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-bayer-leverkusen-fourth-shirtmt62a11k.html?ref=ojaykits",
+  },
+  {
     id: "cfs-roma-home-2627",
     code: "RO-26",
     name: "ROMA 26/27 HOME",
@@ -249,6 +353,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/roma-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-roma-home-shirtkw4631.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-saint-etienne-home-2627",
+    code: "ST-26",
+    name: "SAINT ETIENNE 26/27 HOME",
+    type: "HOME",
+    brand: "HUMMEL",
+    team: "SAINT ETIENNE",
+    league: "LIGUE 2",
+    categorySlug: "2026-27",
+    image: "/jerseys/saint-etienne-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-saint-etienne-home-shirt237490-6235.html?ref=ojaykits",
   },
   {
     id: "cfs-paris-saint-germain-home-ls-2627",
@@ -316,6 +433,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-benfica-away-shirtkm2275.html?ref=ojaykits",
   },
   {
+    id: "cfs-austria-wien-home-2627",
+    code: "AW-26",
+    name: "AUSTRIA WIEN 26/27 HOME",
+    type: "HOME",
+    brand: "MACRON",
+    team: "AUSTRIA WIEN",
+    league: "AUSTRIAN BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/austria-wien-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-austria-wien-home-shirt600154040001.html?ref=ojaykits",
+  },
+  {
     id: "cfs-real-madrid-third-2627",
     code: "RM-29",
     name: "REAL MADRID 26/27 THIRD",
@@ -329,6 +459,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-real-madrid-third-shirtia7520.html?ref=ojaykits",
   },
   {
+    id: "cfs-palermo-home-2627",
+    code: "PL-26",
+    name: "PALERMO 26/27 HOME",
+    type: "HOME",
+    brand: "PUMA",
+    team: "PALERMO",
+    league: "SERIE B",
+    categorySlug: "2026-27",
+    image: "/jerseys/palermo-home-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-palermo-home-shirt786198-01.html?ref=ojaykits",
+  },
+  {
     id: "cfs-aston-villa-authentic-away-2627",
     code: "AV-26",
     name: "ASTON VILLA 26/27 AUTHENTIC AWAY",
@@ -340,6 +483,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/aston-villa-authentic-away-2627.png",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-aston-villa-authentic-away-shirtjz4728.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-las-palmas-away-2627",
+    code: "LP-26",
+    name: "LAS PALMAS 26/27 AWAY",
+    type: "AWAY",
+    brand: "HUMMEL",
+    team: "LAS PALMAS",
+    league: "LA LIGA 2",
+    categorySlug: "2026-27",
+    image: "/jerseys/las-palmas-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-las-palmas-away-shirt237041-7045.html?ref=ojaykits",
   },
   {
     id: "cfs-portofino-away-2627",

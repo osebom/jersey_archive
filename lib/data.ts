@@ -134,6 +134,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-genoa-away-shirt33263rw.html?ref=ojaykits",
   },
   {
+    id: "cfs-lille-third-2627",
+    code: "LL-27",
+    name: "LILLE 26/27 THIRD",
+    type: "THIRD",
+    brand: "NEW BALANCE",
+    team: "LILLE",
+    league: "LIGUE 1",
+    categorySlug: "2026-27",
+    image: "/jerseys/lille-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-lille-third-shirtmt62c3tk.html?ref=ojaykits",
+  },
+  {
     id: "cfs-germany-third-2627",
     code: "DE-28",
     name: "GERMANY 26/27 THIRD",
@@ -145,6 +158,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/germany-third-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-germany-third-shirtks5261.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-burton-albion-third-2627",
+    code: "BA-26",
+    name: "BURTON ALBION 26/27 THIRD",
+    type: "THIRD",
+    brand: "ADMIRAL",
+    team: "BURTON ALBION",
+    league: "LEAGUE ONE",
+    categorySlug: "2026-27",
+    image: "/jerseys/burton-albion-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-burton-albion-third-shirtak10085-04-a.html?ref=ojaykits",
   },
   {
     id: "cfs-tigres-away-2627",
@@ -173,6 +199,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-roma-away-shirtkv2833.html?ref=ojaykits",
   },
   {
+    id: "cfs-burton-albion-third-beige-2627",
+    code: "BA-27",
+    name: "BURTON ALBION 26/27 THIRD BEIGE",
+    type: "THIRD BEIGE",
+    brand: "ADMIRAL",
+    team: "BURTON ALBION",
+    league: "LEAGUE ONE",
+    categorySlug: "2026-27",
+    image: "/jerseys/burton-albion-third-beige-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-burton-albion-third-shirtak10086-60-a.html?ref=ojaykits",
+  },
+  {
     id: "cfs-liverpool-originals-eqt-2627",
     code: "LV-30",
     name: "LIVERPOOL 26/27 ORIGINALS EQT",
@@ -197,6 +236,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/inter-milan-player-issue-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-inter-milan-player-issue-home-shirtii2736-409.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-ado-den-haag-away-2627",
+    code: "DH-26",
+    name: "ADO DEN HAAG 26/27 AWAY",
+    type: "AWAY",
+    brand: "ERREA",
+    team: "ADO DEN HAAG",
+    league: "EREDIVISIE",
+    categorySlug: "2026-27",
+    image: "/jerseys/ado-den-haag-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-ado-den-haag-away-shirtsmwe6c58910adh.html?ref=ojaykits",
   },
   {
     id: "cfs-venezia-home-2627",
@@ -236,6 +288,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/lille-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-lille-away-shirtmt62a0b9.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-bayer-leverkusen-fourth-2627",
+    code: "BL-26",
+    name: "BAYER LEVERKUSEN 26/27 FOURTH",
+    type: "FOURTH",
+    brand: "NEW BALANCE",
+    team: "BAYER LEVERKUSEN",
+    league: "BUNDESLIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/bayer-leverkusen-fourth-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-bayer-leverkusen-fourth-shirtmt62a11k.html?ref=ojaykits",
   },
   {
     id: "cfs-bayern-munich-oktoberfest-fourth-2627",
@@ -327,19 +392,6 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/real-betis-away-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-real-betis-away-shirt237771-5323.html?ref=ojaykits",
-  },
-  {
-    id: "cfs-bayer-leverkusen-fourth-2627",
-    code: "BL-26",
-    name: "BAYER LEVERKUSEN 26/27 FOURTH",
-    type: "FOURTH",
-    brand: "NEW BALANCE",
-    team: "BAYER LEVERKUSEN",
-    league: "BUNDESLIGA",
-    categorySlug: "2026-27",
-    image: "/jerseys/bayer-leverkusen-fourth-2627.jpg",
-    externalUrl:
-      "https://www.classicfootballshirts.com/2026-27-bayer-leverkusen-fourth-shirtmt62a11k.html?ref=ojaykits",
   },
   {
     id: "cfs-roma-home-2627",

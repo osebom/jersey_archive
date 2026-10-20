@@ -186,6 +186,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-tigres-away-shirtkv6485.html?ref=ojaykits",
   },
   {
+    id: "cfs-club-america-110th-anniversary-2627",
+    code: "CA-29",
+    name: "CLUB AMERICA 26/27 110TH ANNIVERSARY",
+    type: "110TH ANNIVERSARY",
+    brand: "ADIDAS",
+    team: "CLUB AMERICA",
+    league: "LIGA MX",
+    categorySlug: "2026-27",
+    image: "/jerseys/club-america-110th-anniversary-2627.png",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-club-america-110th-anniversary-shirtke6265.html?ref=ojaykits",
+  },
+  {
     id: "cfs-roma-away-2627",
     code: "RO-28",
     name: "ROMA 26/27 AWAY",

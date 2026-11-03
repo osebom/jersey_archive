@@ -1,11 +1,41 @@
 "use client";
 
+import { useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { categories } from "@/lib/data";
 
-export default function Header() {
+type HeaderProps = {
+  onPreview?: (preview: "national" | "season" | null) => void;
+};
+
+export default function Header({ onPreview }: HeaderProps) {
   const pathname = usePathname();
+
+  useEffect(() => {
+    if (!onPreview) return;
+
+    const nodes = Array.from(
+      document.querySelectorAll<HTMLElement>("[data-hover-preview]"),
+    );
+    const onEnter = (event: Event) => {
+      const value = (event.currentTarget as HTMLElement).dataset.hoverPreview;
+      if (value === "national" || value === "season") onPreview(value);
+    };
+    const onLeave = () => onPreview(null);
+
+    for (const node of nodes) {
+      node.addEventListener("mouseenter", onEnter);
+      node.addEventListener("mouseleave", onLeave);
+    }
+
+    return () => {
+      for (const node of nodes) {
+        node.removeEventListener("mouseenter", onEnter);
+        node.removeEventListener("mouseleave", onLeave);
+      }
+    };
+  }, [onPreview]);
 
   const isActive = (slug: string) => {
     if (slug === "home") return pathname === "/";
@@ -29,7 +59,19 @@ export default function Header() {
             <Link
               key={cat.slug}
               href={`/category/${cat.slug}`}
+              data-hover-preview={
+                cat.slug === "national-teams"
+                  ? "national"
+                  : cat.slug === "2026-27"
+                    ? "season"
+                    : undefined
+              }
               className={linkClass(isActive(cat.slug))}
+              onMouseEnter={() => {
+                if (cat.slug === "national-teams") onPreview?.("national");
+                if (cat.slug === "2026-27") onPreview?.("season");
+              }}
+              onMouseLeave={() => onPreview?.(null)}
             >
               {cat.navTitle}
             </Link>

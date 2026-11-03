@@ -1,5 +1,8 @@
-import type { ReactNode } from "react";
+"use client";
+
+import { useContext, type ReactNode } from "react";
 import type { Jersey } from "@/lib/data";
+import { PreviewContext } from "@/components/preview-context";
 import JerseyCard from "./JerseyCard";
 
 type JerseyGridProps = {
@@ -15,6 +18,7 @@ export default function JerseyGrid({
   showNames = true,
   size = "default",
 }: JerseyGridProps) {
+  const preview = useContext(PreviewContext);
   const gridClass =
     size === "large"
       ? "grid grid-cols-3 gap-x-6 gap-y-10 sm:grid-cols-3 sm:gap-x-8 sm:gap-y-12 md:grid-cols-4 lg:grid-cols-4 lg:gap-x-10 lg:gap-y-14 xl:grid-cols-5"
@@ -26,7 +30,18 @@ export default function JerseyGrid({
     <div className={gridClass}>
       {leading}
       {jerseys.map((jersey) => (
-        <JerseyCard key={jersey.id} jersey={jersey} showName={showNames} />
+        <JerseyCard
+          key={jersey.id}
+          jersey={jersey}
+          showName={showNames}
+          dimmed={
+            preview === "national"
+              ? jersey.categorySlug !== "national-teams"
+              : preview === "season"
+                ? jersey.categorySlug !== "2026-27"
+                : false
+          }
+        />
       ))}
     </div>
   );

@@ -95,6 +95,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-atalanta-third-shirtmt62v0oy.html?ref=ojaykits",
   },
   {
+    id: "cfs-spezia-third-2627",
+    code: "SZ-26",
+    name: "SPEZIA 26/27 THIRD",
+    type: "THIRD",
+    brand: "KAPPA",
+    team: "SPEZIA",
+    league: "SERIE B",
+    categorySlug: "2026-27",
+    image: "/jerseys/spezia-third-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-spezia-third-shirt-37257gw.html?ref=ojaykits",
+  },
+  {
     id: "cfs-croatia-away-2627",
     code: "HR-27",
     name: "CROATIA 26/27 AWAY",
@@ -119,6 +132,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/como-home-2627.jpg",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-como-home-shirtkh1328.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-santos-away-2026",
+    code: "SS-26",
+    name: "SANTOS 26 AWAY",
+    type: "AWAY",
+    brand: "UMBRO",
+    team: "SANTOS",
+    league: "BRASILEIRAO",
+    categorySlug: "2026-27",
+    image: "/jerseys/santos-away-2026.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-santos-away-shirtu31s04236-121.html?ref=ojaykits",
   },
   {
     id: "cfs-genoa-away-2627",
@@ -160,6 +186,19 @@ export const jerseys: Jersey[] = [
       "https://www.classicfootballshirts.com/2026-27-germany-third-shirtks5261.html?ref=ojaykits",
   },
   {
+    id: "cfs-rayo-vallecano-away-2627",
+    code: "RV-26",
+    name: "RAYO VALLECANO 26/27 AWAY",
+    type: "AWAY",
+    brand: "UMBRO",
+    team: "RAYO VALLECANO",
+    league: "LA LIGA",
+    categorySlug: "2026-27",
+    image: "/jerseys/rayo-vallecano-away-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-rayo-vallecano-away-shirta96033a.html?ref=ojaykits",
+  },
+  {
     id: "cfs-burton-albion-third-2627",
     code: "BA-26",
     name: "BURTON ALBION 26/27 THIRD",
@@ -197,6 +236,19 @@ export const jerseys: Jersey[] = [
     image: "/jerseys/club-america-110th-anniversary-2627.png",
     externalUrl:
       "https://www.classicfootballshirts.com/2026-27-club-america-110th-anniversary-shirtke6265.html?ref=ojaykits",
+  },
+  {
+    id: "cfs-nice-third-ls-2627",
+    code: "NC-26",
+    name: "NICE 26/27 THIRD LS",
+    type: "THIRD LS",
+    brand: "KAPPA",
+    team: "NICE",
+    league: "LIGUE 1",
+    categorySlug: "2026-27",
+    image: "/jerseys/nice-third-ls-2627.jpg",
+    externalUrl:
+      "https://www.classicfootballshirts.com/2026-27-nice-third-ls-shirt34286sw.html?ref=ojaykits",
   },
   {
     id: "cfs-roma-away-2627",

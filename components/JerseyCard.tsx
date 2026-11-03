@@ -4,11 +4,13 @@ import type { Jersey } from "@/lib/data";
 type JerseyCardProps = {
   jersey: Jersey;
   showName?: boolean | "desktop";
+  dimmed?: boolean;
 };
 
 export default function JerseyCard({
   jersey,
   showName = true,
+  dimmed = false,
 }: JerseyCardProps) {
   const nameVisibility =
     showName === "desktop"
@@ -22,7 +24,16 @@ export default function JerseyCard({
       href={jersey.externalUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="group flex flex-col items-center"
+      data-jersey-category={
+        jersey.categorySlug === "national-teams"
+          ? "national"
+          : jersey.categorySlug === "2026-27"
+            ? "season"
+            : jersey.categorySlug ?? ""
+      }
+      className={`group flex flex-col items-center transition-[filter,opacity] duration-200 ${
+        dimmed ? "blur-[3px] opacity-35" : "blur-0 opacity-100"
+      }`}
     >
       <div className="relative aspect-[3/4] w-full transition-transform duration-200 ease-out group-hover:-translate-y-1.5">
         <Image

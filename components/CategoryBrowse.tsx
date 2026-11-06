@@ -20,6 +20,7 @@ type CategoryBrowseProps = {
   title: string;
   jerseys: Jersey[];
   filterKeys?: FilterKey[];
+  defaultFilters?: SelectedFilters;
 };
 
 function FilterDropdown({
@@ -170,8 +171,9 @@ export default function CategoryBrowse({
   title,
   jerseys,
   filterKeys = FILTER_KEYS,
+  defaultFilters = EMPTY_FILTERS,
 }: CategoryBrowseProps) {
-  const [selected, setSelected] = useState<SelectedFilters>(EMPTY_FILTERS);
+  const [selected, setSelected] = useState<SelectedFilters>(defaultFilters);
   const [openFilter, setOpenFilter] = useState<FilterKey | null>(null);
 
   const options = useMemo(

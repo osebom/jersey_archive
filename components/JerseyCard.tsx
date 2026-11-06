@@ -27,8 +27,8 @@ export default function JerseyCard({
       data-jersey-category={
         jersey.categorySlug === "national-teams"
           ? "national"
-          : jersey.categorySlug === "2026-27"
-            ? "season"
+          : jersey.categorySlug === "club-jerseys"
+            ? "club"
             : jersey.categorySlug ?? ""
       }
       className={`group flex flex-col items-center transition-[filter,opacity] duration-200 ${

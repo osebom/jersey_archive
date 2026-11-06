@@ -37,8 +37,8 @@ export default function JerseyGrid({
           dimmed={
             preview === "national"
               ? jersey.categorySlug !== "national-teams"
-              : preview === "season"
-                ? jersey.categorySlug !== "2026-27"
+              : preview === "club"
+                ? jersey.categorySlug !== "club-jerseys"
                 : false
           }
         />

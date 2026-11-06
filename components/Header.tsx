@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { categories } from "@/lib/data";
 
 type HeaderProps = {
-  onPreview?: (preview: "national" | "season" | null) => void;
+  onPreview?: (preview: "national" | "club" | null) => void;
 };
 
 export default function Header({ onPreview }: HeaderProps) {
@@ -20,7 +20,7 @@ export default function Header({ onPreview }: HeaderProps) {
     );
     const onEnter = (event: Event) => {
       const value = (event.currentTarget as HTMLElement).dataset.hoverPreview;
-      if (value === "national" || value === "season") onPreview(value);
+      if (value === "national" || value === "club") onPreview(value);
     };
     const onLeave = () => onPreview(null);
 
@@ -62,14 +62,14 @@ export default function Header({ onPreview }: HeaderProps) {
               data-hover-preview={
                 cat.slug === "national-teams"
                   ? "national"
-                  : cat.slug === "2026-27"
-                    ? "season"
+                  : cat.slug === "club-jerseys"
+                    ? "club"
                     : undefined
               }
               className={linkClass(isActive(cat.slug))}
               onMouseEnter={() => {
                 if (cat.slug === "national-teams") onPreview?.("national");
-                if (cat.slug === "2026-27") onPreview?.("season");
+                if (cat.slug === "club-jerseys") onPreview?.("club");
               }}
               onMouseLeave={() => onPreview?.(null)}
             >

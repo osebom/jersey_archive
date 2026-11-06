@@ -6,7 +6,7 @@ import {
   getCategoryBySlug,
   getJerseysByCategory,
 } from "@/lib/data";
-import type { FilterKey } from "@/lib/filters";
+import { EMPTY_FILTERS, type FilterKey } from "@/lib/filters";
 
 type CategoryPageProps = {
   params: Promise<{ slug: string }>;
@@ -19,7 +19,7 @@ export function generateStaticParams() {
 }
 
 const BASE_FILTERS: FilterKey[] = ["type", "brand", "team"];
-const SEASON_FILTERS: FilterKey[] = ["type", "brand", "team", "league"];
+const CLUB_FILTERS: FilterKey[] = ["type", "brand", "team", "league", "season"];
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = await params;
@@ -30,7 +30,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const categoryJerseys = getJerseysByCategory(slug);
-  const filterKeys = slug === "2026-27" ? SEASON_FILTERS : BASE_FILTERS;
+  const isClubJerseys = slug === "club-jerseys";
+  const filterKeys = isClubJerseys ? CLUB_FILTERS : BASE_FILTERS;
 
   return (
     <div className="min-h-screen bg-white">
@@ -39,6 +40,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         title={category.title}
         jerseys={categoryJerseys}
         filterKeys={filterKeys}
+        defaultFilters={
+          isClubJerseys ? { ...EMPTY_FILTERS, season: ["26/27"] } : undefined
+        }
       />
     </div>
   );

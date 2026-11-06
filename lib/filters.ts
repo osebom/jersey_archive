@@ -1,6 +1,6 @@
 import type { Jersey } from "@/lib/data";
 
-export type FilterKey = "type" | "brand" | "team" | "league";
+export type FilterKey = "type" | "brand" | "team" | "league" | "season";
 
 export type SelectedFilters = Record<FilterKey, string[]>;
 
@@ -9,6 +9,7 @@ export const FILTER_LABELS: Record<FilterKey, string> = {
   brand: "BRAND",
   team: "TEAM",
   league: "LEAGUES",
+  season: "SEASON",
 };
 
 export const FILTER_KEYS = Object.keys(FILTER_LABELS) as FilterKey[];
@@ -18,6 +19,7 @@ export const EMPTY_FILTERS: SelectedFilters = {
   brand: [],
   team: [],
   league: [],
+  season: [],
 };
 
 export function getFilterOptions(
